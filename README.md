@@ -13,7 +13,7 @@ yarn install react-native-wallpaper-manage
 ## Usage
 
 ```js
-import WallpaperManager, {TYPE} from "react-native-wallpaper-manager";
+import WallpaperManager, {TYPE} from "react-native-wallpaper-manage";
 
 // ...
 
