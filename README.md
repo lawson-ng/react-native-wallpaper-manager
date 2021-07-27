@@ -1,11 +1,13 @@
-# react-native-wallpaper-manager
-
-react native wallpaper manager
+# React Native Wallpaper Manager 🚀
 
 ## Installation
 
 ```sh
-npm install react-native-wallpaper-manager
+npm install react-native-wallpaper-manage
+
+# OR
+
+yarn install react-native-wallpaper-manage
 ```
 
 ## Usage
@@ -17,6 +19,14 @@ import WallpaperManager, {TYPE} from "react-native-wallpaper-manager";
 
 const result = WallpaperManager.setWallpaper(URL, TYPE.FLAG_LOCK)
 ```
+## Properties
+
+#### Basic
+
+| Prop           |     Default     |   Type   | Description                                                                                                 |
+| :------------- | :-------------: | :------: | :---------------------------------------------------------------------------------------------------------- |
+| TYPE           |  FLAG_SYSTEM    |  `enum`  | `FLAG_LOCK`: the lock-screen-specific wallpaper. `FLAG_SYSTEM`: the system wallpaper.                       |
+
 
 ## Contributing
 
