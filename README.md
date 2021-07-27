@@ -11,7 +11,7 @@ npm install react-native-wallpaper-manager
 ## Usage
 
 ```js
-import WallpaperManager, {Type} from "react-native-wallpaper-manager";
+import WallpaperManager, {TYPE} from "react-native-wallpaper-manager";
 
 // ...
 
