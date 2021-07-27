@@ -11,11 +11,11 @@ npm install react-native-wallpaper-manager
 ## Usage
 
 ```js
-import WallpaperManager from "react-native-wallpaper-manager";
+import WallpaperManager, {Type} from "react-native-wallpaper-manager";
 
 // ...
 
-const result = await WallpaperManager.multiply(3, 7);
+const result = WallpaperManager.setWallpaper(URL, TYPE.FLAG_LOCK)
 ```
 
 ## Contributing
